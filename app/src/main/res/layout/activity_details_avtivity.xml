@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ahlyclub.omar2.ahlyclubteam.DetailsAvtivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/myToolBar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red"
+        android:elevation="5dp"
+
+        >
+
+        <TextView
+            android:id="@+id/playerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="-"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/player_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="38dp"
+        android:src="@color/red" />
+
+  <LinearLayout
+      android:layout_marginTop="50dp"
+      android:paddingLeft="15dp"
+      android:layoutDirection="rtl"
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+
+          <TextView
+              android:textSize="20sp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Position : "
+              android:textColor="@color/darkgrey" />
+
+          <TextView
+              android:textSize="20sp"
+              android:id="@+id/dPosition"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/red" />
+      </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nationality : "
+            android:textColor="@color/darkgrey" />
+
+        <TextView
+            android:textSize="20sp"
+            android:id="@+id/dNationality"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red" />
+    </LinearLayout>
+
+      <LinearLayout
+          android:layout_marginTop="6dp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:weightSum="2"
+          android:orientation="horizontal">
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_weight="1"
+              android:orientation="horizontal"
+              >
+
+              <TextView
+                  android:textSize="20sp"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Height : "
+                  android:textColor="@color/darkgrey" />
+
+              <TextView
+                  android:textSize="20sp"
+                  android:id="@+id/height"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textColor="@color/red" />
+
+
+          </LinearLayout>
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_weight="1"
+              android:orientation="horizontal"
+              >
+
+
+          <TextView
+              android:textSize="20sp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Age : "
+              android:textColor="@color/darkgrey" />
+
+          <TextView
+              android:textSize="20sp"
+              android:id="@+id/dAge"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/red" />
+
+          </LinearLayout>
+
+      </LinearLayout>
+
+
+      <LinearLayout
+          android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tishert Number"
+            android:textSize="20sp"
+            android:textColor="@color/darkgrey" />
+
+              <TextView
+                  android:layout_marginTop="8dp"
+                  android:background="@drawable/circle"
+                  android:id="@+id/tishertNumber"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:gravity="center"
+                  android:text="55"
+                  android:textColor="@color/white"
+                  android:textSize="24sp" />
+     </LinearLayout>
+
+
+  </LinearLayout>
+
+</LinearLayout>
